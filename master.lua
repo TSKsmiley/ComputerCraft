@@ -1,4 +1,5 @@
 rednet.open("left")
+fs.open()
 local senderId, message, protocol = rednet.receive()
 print(message)
-print(senderId)
+print(protocol)
